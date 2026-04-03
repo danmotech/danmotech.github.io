@@ -5,8 +5,35 @@ import { useLanguage } from "@/i18n/LanguageContext";
 
 const ContactSection = () => {
   const [submitted, setSubmitted] = useState(false);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState(false);
   const { t, locale } = useLanguage();
   const isRtl = locale === "ar";
+
+  const FORMSPREE_ENDPOINT = "https://formspree.io/f/YOUR_FORM_ID"; // replace with your Formspree form ID
+
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    setLoading(true);
+    setError(false);
+    const form = e.currentTarget;
+    try {
+      const res = await fetch(FORMSPREE_ENDPOINT, {
+        method: "POST",
+        body: new FormData(form),
+        headers: { Accept: "application/json" },
+      });
+      if (res.ok) {
+        setSubmitted(true);
+      } else {
+        setError(true);
+      }
+    } catch {
+      setError(true);
+    } finally {
+      setLoading(false);
+    }
+  };
 
   return (
     <section id="contact" className="py-24 md:py-32 bg-section-dark">
@@ -68,15 +95,15 @@ const ContactSection = () => {
               </div>
             ) : (
               <form
-                onSubmit={(e) => { e.preventDefault(); setSubmitted(true); }}
+                onSubmit={handleSubmit}
                 className="space-y-5 p-8 rounded-2xl border border-section-dark-foreground/10 bg-section-dark-foreground/5"
               >
                 <div className="grid sm:grid-cols-2 gap-5">
-                  <input type="text" placeholder={t.contact.form.name} required className="w-full px-4 py-3 rounded-lg bg-section-dark border border-section-dark-foreground/15 text-section-dark-foreground placeholder:text-section-dark-foreground/40 focus:outline-none focus:ring-2 focus:ring-primary/50" />
-                  <input type="email" placeholder={t.contact.form.email} required className="w-full px-4 py-3 rounded-lg bg-section-dark border border-section-dark-foreground/15 text-section-dark-foreground placeholder:text-section-dark-foreground/40 focus:outline-none focus:ring-2 focus:ring-primary/50" />
+                  <input name="name" type="text" placeholder={t.contact.form.name} required className="w-full px-4 py-3 rounded-lg bg-section-dark border border-section-dark-foreground/15 text-section-dark-foreground placeholder:text-section-dark-foreground/40 focus:outline-none focus:ring-2 focus:ring-primary/50" />
+                  <input name="email" type="email" placeholder={t.contact.form.email} required className="w-full px-4 py-3 rounded-lg bg-section-dark border border-section-dark-foreground/15 text-section-dark-foreground placeholder:text-section-dark-foreground/40 focus:outline-none focus:ring-2 focus:ring-primary/50" />
                 </div>
-                <input type="text" placeholder={t.contact.form.company} className="w-full px-4 py-3 rounded-lg bg-section-dark border border-section-dark-foreground/15 text-section-dark-foreground placeholder:text-section-dark-foreground/40 focus:outline-none focus:ring-2 focus:ring-primary/50" />
-                <select className="w-full px-4 py-3 rounded-lg bg-section-dark border border-section-dark-foreground/15 text-section-dark-foreground focus:outline-none focus:ring-2 focus:ring-primary/50">
+                <input name="company" type="text" placeholder={t.contact.form.company} className="w-full px-4 py-3 rounded-lg bg-section-dark border border-section-dark-foreground/15 text-section-dark-foreground placeholder:text-section-dark-foreground/40 focus:outline-none focus:ring-2 focus:ring-primary/50" />
+                <select name="product" className="w-full px-4 py-3 rounded-lg bg-section-dark border border-section-dark-foreground/15 text-section-dark-foreground focus:outline-none focus:ring-2 focus:ring-primary/50">
                   <option value="">{t.contact.form.selectProduct}</option>
                   <option>iCELL Series</option>
                   <option>iCUBE Series</option>
@@ -84,9 +111,16 @@ const ContactSection = () => {
                   <option>Waste Water Treatment Plant</option>
                   <option>{t.contact.form.partnership}</option>
                 </select>
-                <textarea placeholder={t.contact.form.message} rows={4} required className="w-full px-4 py-3 rounded-lg bg-section-dark border border-section-dark-foreground/15 text-section-dark-foreground placeholder:text-section-dark-foreground/40 focus:outline-none focus:ring-2 focus:ring-primary/50 resize-none" />
-                <button type="submit" className="w-full py-4 rounded-lg bg-primary text-primary-foreground font-semibold text-base hover:opacity-90 transition-opacity">
-                  {t.contact.form.send}
+                <textarea name="message" placeholder={t.contact.form.message} rows={4} required className="w-full px-4 py-3 rounded-lg bg-section-dark border border-section-dark-foreground/15 text-section-dark-foreground placeholder:text-section-dark-foreground/40 focus:outline-none focus:ring-2 focus:ring-primary/50 resize-none" />
+                {error && (
+                  <p className="text-red-400 text-sm text-center">Something went wrong. Please try again or email us directly.</p>
+                )}
+                <button
+                  type="submit"
+                  disabled={loading}
+                  className="w-full py-4 rounded-lg bg-primary text-primary-foreground font-semibold text-base hover:opacity-90 transition-opacity disabled:opacity-60 disabled:cursor-not-allowed"
+                >
+                  {loading ? "..." : t.contact.form.send}
                 </button>
               </form>
             )}
