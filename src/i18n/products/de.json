@@ -1,0 +1,176 @@
+{
+  "icell": {
+    "slug": "icell",
+    "name": "iCELL Serie",
+    "tagline": "Kompakte Kleinkläranlage für Einzelhaushalte und ländliche Gebiete",
+    "tag": "Wohnbereich",
+    "description": [
+      "Die iCELL-Kompaktkläranlagen von Danmotech sind für die Abwasserbehandlung von Einzelhaushalten in ländlichen Gebieten, freistehenden Wohngebäuden, Villen und kleinen Wohnsiedlungen konzipiert.",
+      "Das iCELL-System wird in der Regel nach einer Klärgrube installiert, entweder erdverlegt oder oberirdisch. Eine einzelne iCELL-Einheit versorgt 3–6 Personen, die Kapazität lässt sich durch modulare Kombinationen erweitern."
+    ],
+    "specs": [
+      { "model": "iCELL-0.5", "capacity": "0,5 t/Tag", "size": "1,2 × 0,73 × 1,2 m", "inlet": "DN100", "outlet": "DN100", "power": "25W" },
+      { "model": "iCELL-1",   "capacity": "1 t/Tag",   "size": "D1,4 × 1,6 m",       "inlet": "DN100", "outlet": "DN100", "power": "25W" }
+    ],
+    "features": [
+      "Modifiziertes A/O-Verfahren — Kombination aus Belebungsverfahren und Biofilmtechnologie",
+      "Patentierter Festplatten-Biofilmträger für verbesserte CSB- und TN-Entfernung",
+      "Ablauf erfüllt Klasse-B-Einleitungsstandard (GB18918-2016)",
+      "Optionale Solarstromversorgung für Null-Betriebskosten",
+      "Optionale intelligente Überwachung mit Fernsteuerung",
+      "Einzelmodulkapazität: 0,5–1 t/Tag für 3–6 Personen"
+    ],
+    "advantages": [
+      "Hochintegriertes System, einfach zu installieren und in Betrieb zu nehmen",
+      "Kurze Einfahrzeit mit wenig Restschlamm",
+      "Gute Ablaufqualität — geeignet für Spülung, Begrünung und Bewässerung",
+      "PE-Material — keine Verschmutzung, lange Lebensdauer",
+      "Kein Lärm und keine sekundäre Verschmutzung",
+      "Integrierte Solarstromoption"
+    ],
+    "highlights": [
+      { "label": "Kapazität",     "value": "0,5–1 t/Tag" },
+      { "label": "Leistung",      "value": "25W" },
+      { "label": "Versorgung",    "value": "3–6 Personen" },
+      { "label": "Installation",  "value": "Erd-/Oberirdisch" }
+    ]
+  },
+  "icube": {
+    "slug": "icube",
+    "name": "iCUBE Serie",
+    "tagline": "Containerisierte Kläranlage für Gemeinden und Gewerbebetriebe",
+    "tag": "Gewerbe",
+    "description": [
+      "Die iCUBE-Systeme von Danmotech sind containerisierte Kläranlagen für verteilte Bevölkerungen, Camps, Ölbohrstandorte und abgelegene Standorte.",
+      "Konzipiert für kleine bis mittlere Wohngebiete, Schulen, Krankenhäuser, Hotels und Gewerbebetriebe. Das modulare Containerdesign (20HQ und 40HQ) ermöglicht flexible Kapazitätsskalierung von 50 bis über 130.000 Personen."
+    ],
+    "specs": [
+      { "model": "iCUBE-50",  "capacity": "≤50 t/Tag",  "size": "6060 × 2440 × 2900 mm",  "inlet": "—", "outlet": "—", "power": "—" },
+      { "model": "iCUBE-150", "capacity": "≤150 t/Tag", "size": "12190 × 2440 × 2900 mm", "inlet": "—", "outlet": "—", "power": "—" }
+    ],
+    "inletCriteria": [
+      { "param": "BSB₅",  "value": "≤220 mg/l" },
+      { "param": "CSB",   "value": "≤400 mg/l" },
+      { "param": "pH",    "value": "6–9" },
+      { "param": "AFS",   "value": "≤200 mg/l" },
+      { "param": "NH₃-N","value": "≤40 mg/l" },
+      { "param": "TN",    "value": "≤45 mg/l" }
+    ],
+    "outletCriteria": [
+      { "param": "BSB₅",  "value": "≤10 mg/l" },
+      { "param": "CSB",   "value": "≤50 mg/l" },
+      { "param": "AFS",   "value": "≤10 mg/l" },
+      { "param": "TN",    "value": "≤10 mg/l" },
+      { "param": "NH₃-N","value": "≤5(8) mg/l" },
+      { "param": "pH",    "value": "6–9" }
+    ],
+    "features": [
+      "Modifiziertes A/O-Verfahren — Kombination aus Belebungsverfahren und Biofilmtechnologie",
+      "Patentierte HBF-Biofilmtechnologie für Energieeinsparung",
+      "Festplatten-Biofilmträger verbessert Stickstoffabbau",
+      "Fernüberwachung über intelligente Umwelt-Cloud-Plattform",
+      "Einzelmodulkapazität: 50–200 t/Tag",
+      "Bevölkerungsabdeckung: 300–2.000 Personen pro Modul",
+      "Flächenbedarf: 0,20–0,45 m²/t",
+      "Energieverbrauch: 0,20–0,50 KW·h/t"
+    ],
+    "advantages": [
+      "Erfüllt strenge kommunale Abwassereinleitungsstandards",
+      "Plug & Play — einfache Installation",
+      "Gereinigtes Wasser wiederverwendbar für Bewässerung und Spülung",
+      "Kurze Bauzeit durch standardisierte Produktion",
+      "Intelligente Überwachung — Online und Mobile App",
+      "Keine sekundäre Verschmutzung (Schlamm, Abgas, Lärm)",
+      "Stabile Leistung mit hoher Stoßbelastbarkeit"
+    ],
+    "highlights": [
+      { "label": "Kapazität",    "value": "50–200 t/Tag" },
+      { "label": "Energie",      "value": "0,20–0,50 KW·h/t" },
+      { "label": "Versorgung",   "value": "300–2.000 Personen" },
+      { "label": "Flächenbedarf","value": "0,20–0,45 m²/t" }
+    ]
+  },
+  "ishell": {
+    "slug": "ishell",
+    "name": "iSHELL Serie",
+    "tagline": "Fortschrittliche Kompaktkläranlage mit deutscher Festbett-Biofilmtechnologie",
+    "tag": "Modular",
+    "description": [
+      "Die iSHELL-Kompaktkläranlage von Danmotech nutzt die fortschrittliche deutsche Festbett-Biofilmträgertechnologie, die 2013 eingeführt und seit 2014 in Serie produziert wird.",
+      "Die iSHELL-Lösung besteht aus drei Teilen — Klärgrube, Bio-Tank und Sedimentationstank. Durch verschiedene Volumina und Kombinationen lässt sich die Behandlungskapazität flexibel wie LEGO-Steine skalieren."
+    ],
+    "specs": [
+      { "model": "Typ A", "capacity": "Modular", "size": "Breite 1600 mm × Höhe 2300 mm", "inlet": "DN150", "outlet": "Individuell", "power": "Intermittierende Belüftung" },
+      { "model": "Typ B", "capacity": "Modular", "size": "Breite 2200 mm × Höhe 2300 mm", "inlet": "DN150", "outlet": "Individuell", "power": "Intermittierende Belüftung" }
+    ],
+    "bioTankSpecs": [
+      { "mode": "A", "volTotal": "3,5 m³", "biofillerVol": "2,7 m³", "width": "1600 mm", "height": "2300 mm", "inletDia": "DN150", "inletHeight": "1700 mm", "weight": "200–330 kg" },
+      { "mode": "B", "volTotal": "6,3 m³", "biofillerVol": "4,3 m³", "width": "2200 mm", "height": "2300 mm", "inletDia": "DN150", "inletHeight": "1700 mm", "weight": "300–500 kg" }
+    ],
+    "features": [
+      "Deutsche Festbett-Biofilmträgertechnologie mit 20+ Jahren Lebensdauer",
+      "Progressive Strömung zwischen Tanks ohne externe Energie — intermittierende Belüftung senkt Kosten",
+      "PE-Ausgleichstank ersetzt Beton-Klärgrube und verkürzt den Installationszyklus",
+      "Zweistufige biologische Behandlung: Hochlastreaktor (100 m²/m³) und Niedriglastreaktor (150 m²/m³)",
+      "Nitrifikations-Rückführsystem nach Kundenanforderung verfügbar",
+      "Nahtloser PE-Tank mit Antioxidantien und UV-beständigen Additiven gegen alle Korrosionsarten",
+      "Wellenform von deutschen Experten entworfen — stabile Struktur mit gutem Erscheinungsbild",
+      "Hohe Auftriebssicherheit, keine zusätzlichen Maßnahmen erforderlich"
+    ],
+    "advantages": [
+      "Geteilte Struktur für bequemen Transport und Heben",
+      "Automatisches Steuerungssystem mit intelligenter Überwachung",
+      "Deutscher Import: Rohr-Mikrolochbelüfter für gleichmäßige Belüftung",
+      "Spezielles Polyurethan-Filmmaterial für Biofilmträger",
+      "Kleines Volumen, geringes Gewicht — einfach zu installieren und transportieren",
+      "Lebensdauer über 20 Jahre",
+      "Patentierter erdverlegter PE-Tank und hocheffizientes Kombinations-KA-Design"
+    ],
+    "highlights": [
+      { "label": "Bio-Tank Vol.", "value": "3,5–6,3 m³" },
+      { "label": "Technologie",  "value": "Deutsches Festbett" },
+      { "label": "Lebensdauer",  "value": "20+ Jahre" },
+      { "label": "Design",       "value": "Modulares PE" }
+    ],
+    "applicationAreas": [
+      "Häusliches Abwasser: ländliche Gebiete, Kleinstädte und Märkte",
+      "Kommunal & Gewerbe: Hotels, Wohnanlagen, Freizeiteinrichtungen, Autobahnraststätten",
+      "Öffentlicher Verkehr: Busbahnhöfe, Bahnhöfe, Passagierterminals, Nahverkehrsknoten"
+    ]
+  },
+  "wwtp": {
+    "slug": "wwtp",
+    "name": "Kläranlage",
+    "tagline": "Kommunale und industrielle Großkläranlagenlösungen",
+    "tag": "Kommunal",
+    "description": [
+      "Danmotech integriert erstklassige Abwasserbehandlungstechnologien für effektive und fortschrittliche Lösungen in kommunalen und industriellen Anwendungen.",
+      "Für Großprojekte bieten wir professionelle Beratung einschließlich Standortplänen und Baubegleitung, unterstützt durch unsere patentierten HBF- und UC-Reaktortechnologien."
+    ],
+    "specs": [
+      { "model": "Individuelle KA", "capacity": "500–50.000+ t/Tag", "size": "Standortspezifisch", "inlet": "Individuell", "outlet": "Individuell", "power": "Projektbezogen" }
+    ],
+    "features": [
+      "Patentierte HBF-Technologie (Hocheffizienz-Biofilm)",
+      "UC-Reaktor für fortgeschrittene Behandlungsstufen",
+      "Umfassende Projektevaluierung und Beratung",
+      "Standortspezifische Planung und Baubegleitung",
+      "Integration erstklassiger globaler Behandlungstechnologien",
+      "Vor-Ort-Expertenbegleitung während der Bauphase"
+    ],
+    "advantages": [
+      "10+ Jahre Abwasserbehandlungsexpertise",
+      "Professionelle Beratung von der Bewertung bis zur Inbetriebnahme",
+      "Zugang zu den neuesten globalen Behandlungstechnologien",
+      "Hohe Kosteneffizienz für Energie- und Wirtschaftseinsparungen",
+      "Baubegleitung durch Expertenteams vor Ort",
+      "Umfassender After-Sales-Support und Wartung"
+    ],
+    "highlights": [
+      { "label": "Maßstab",    "value": "500–50.000+ t/Tag" },
+      { "label": "Technologie","value": "HBF & UC-Reaktor" },
+      { "label": "Erfahrung",  "value": "10+ Jahre" },
+      { "label": "Service",    "value": "Gesamter Lebenszyklus" }
+    ]
+  }
+}

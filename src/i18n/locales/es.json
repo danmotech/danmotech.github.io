@@ -1,0 +1,151 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "products": "Productos",
+    "technology": "Tecnología",
+    "references": "Referencias",
+    "partner": "Socio",
+    "contact": "Contacto",
+    "getQuote": "Solicitar Presupuesto"
+  },
+  "hero": {
+    "badge": "Soluciones de Tratamiento de Agua Residual",
+    "titleLine1": "Agua Limpia,",
+    "titleHighlight": "Sostenible",
+    "titleLine2": "Futuro",
+    "desc": "Danmotech proporciona sistemas avanzados de tratamiento de aguas residuales descentralizados para aplicaciones residenciales, comerciales y municipales en todo el mundo.",
+    "exploreProducts": "Explorar Productos",
+    "contactUs": "Contáctenos",
+    "stats": {
+      "projects": "Proyectos Completados",
+      "countries": "Países Atendidos",
+      "years": "Años de Experiencia",
+      "efficiency": "Eficiencia del Tratamiento"
+    }
+  },
+  "products": {
+    "subtitle": "Nuestras Soluciones",
+    "title": "Series de Productos",
+    "desc": "Desde unidades compactas para hogares hasta plantas municipales a gran escala, tenemos la solución adecuada para cada desafío de tratamiento de aguas residuales.",
+    "learnMore": "Más Información",
+    "residential": "Residencial",
+    "commercial": "Comercial",
+    "modular": "Modular",
+    "municipal": "Municipal",
+    "icell": {
+      "name": "Serie iCELL",
+      "desc": "Plantas compactas de tratamiento para hogares individuales, áreas rurales, villas y pequeñas comunidades residenciales. Fácil de instalar y mantener."
+    },
+    "icube": {
+      "name": "Serie iCUBE",
+      "desc": "Plantas containerizadas para poblaciones dispersas, campamentos, áreas remotas y instalaciones comerciales."
+    },
+    "ishell": {
+      "name": "Serie iSHELL",
+      "desc": "Sistema avanzado modular con tecnología fija alemana. Combinaciones flexibles para diversas capacidades."
+    },
+    "wwtp": {
+      "name": "Planta de Tratamiento de Agua Residual",
+      "desc": "Plantas a gran escala que integran tecnologías de clase mundial para aplicaciones municipales e industriales."
+    }
+  },
+  "tech": {
+    "subtitle": "Por qué Danmotech",
+    "title": "Tecnología Avanzada",
+    "desc": "Combinando la excelencia de la ingeniería alemana con décadas de experiencia en tratamiento de aguas residuales.",
+    "features": {
+      "germanTech": { "title": "Tecnología Alemana", "desc": "Tecnología avanzada de tratamiento biológico de lecho fijo de Alemania." },
+      "ecoFriendly": { "title": "Ecológico", "desc": "Bajo consumo energético con impacto ambiental mínimo." },
+      "highEfficiency": { "title": "Alta Eficiencia", "desc": "99% de eficiencia de tratamiento que cumple con estándares estrictos de vertido." },
+      "easyMaintenance": { "title": "Fácil Mantenimiento", "desc": "Sistemas automatizados que requieren mínima intervención del operador." },
+      "certifiedQuality": { "title": "Calidad Certificada", "desc": "Probado y aprobado internacionalmente por autoridades líderes." },
+      "waterReuse": { "title": "Reutilización de Agua", "desc": "Agua tratada adecuada para riego y reutilización no potable." }
+    }
+  },
+  "refs": {
+    "subtitle": "Estudios de Caso",
+    "title": "Nuestras Referencias",
+    "desc": "Rastro comprobado de éxito en proyectos residenciales, comerciales y municipales en todo el mundo.",
+    "items": {
+      "icell": { "title": "iCELL Residencial Privado", "location": "Hogares rurales y villas" },
+      "icube": { "title": "iCUBE Proyecto Comunitario", "location": "Comunidad residencial" },
+      "ishell": { "title": "iSHELL Sistema Municipal", "location": "Instalación subterránea" },
+      "wwtp": { "title": "Gran Planta WWTP", "location": "Planta de tratamiento municipal" }
+    }
+  },
+  "partner": {
+    "subtitle": "Asociación",
+    "title": "Conviértase en Socio de Danmotech",
+    "desc": "Buscamos distribuidores y mayoristas experimentados en todo el mundo para llevar nuestras soluciones a nuevos mercados.",
+    "applyNow": "Solicitar Ahora",
+    "benefits": {
+      "globalNetwork": { "title": "Red Global", "desc": "Únase a nuestra red internacional de distribuidores en más de 30 países." },
+      "growingMarket": { "title": "Mercado en Crecimiento", "desc": "Acceda al sector en rápida expansión del tratamiento de agua." },
+      "fullSupport": { "title": "Soporte Completo", "desc": "Capacitación técnica, materiales de marketing y apoyo continuo." }
+    }
+  },
+  "contact": {
+    "subtitle": "Contacto",
+    "title": "Póngase en Contacto",
+    "desc": "¿Listo para discutir sus necesidades de tratamiento de aguas residuales? Nuestro equipo de expertos está aquí para ayudarle.",
+    "email": "Correo Electrónico",
+    "location": "Ubicación",
+    "locationValue": "Shanghái, China",
+    "website": "Sitio Web",
+    "form": {
+      "name": "Nombre",
+      "email": "Correo Electrónico",
+      "company": "Empresa",
+      "selectProduct": "Seleccionar Interés en Producto",
+      "partnership": "Asociación",
+      "message": "Su mensaje...",
+      "send": "Enviar Mensaje"
+    },
+    "success": {
+      "title": "¡Mensaje Enviado!",
+      "desc": "Nos pondremos en contacto con usted en breve."
+    }
+  },
+  "footer": {
+    "desc": "Proveedor profesional de soluciones de tratamiento de aguas residuales con tecnología alemana.",
+    "products": "Productos",
+    "company": "Empresa",
+    "contact": "Contacto",
+    "technology": "Tecnología",
+    "references": "Referencias",
+    "becomePartner": "Convertirse en Socio",
+    "rights": "Todos los derechos reservados."
+  },
+  "detail": {
+    "backToProducts": "Volver a Productos",
+    "overview": "Descripción General",
+    "specifications": "Especificaciones",
+    "bioTankParams": "Parámetros del Tanque Biológico",
+    "techFeatures": "Características Tecnológicas",
+    "advantages": "Ventajas",
+    "applicationAreas": "Áreas de Aplicación",
+    "interestedIn": "Interesado en",
+    "ctaDesc": "Póngase en contacto con nuestro equipo para obtener una solución personalizada.",
+    "otherProducts": "Otros Productos",
+    "notFound": "Producto No Encontrado",
+    "backHome": "← Volver al Inicio",
+    "tableHeaders": {
+      "model": "Modelo",
+      "capacity": "Capacidad",
+      "size": "Tamaño",
+      "inlet": "Entrada",
+      "outlet": "Salida",
+      "power": "Potencia",
+      "mode": "Tipo",
+      "volTotal": "Vol. Total",
+      "biofillerVol": "Vol. Relleno Biológico",
+      "width": "Ancho",
+      "height": "Alto",
+      "inletDia": "Diámetro de Entrada",
+      "inletHeight": "Altura de Entrada",
+      "weight": "Peso"
+    },
+    "inletCriteria": "Criterios de Agua de Entrada",
+    "outletCriteria": "Estándar de Agua de Salida"
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "products": "Produkte",
+    "technology": "Technologie",
+    "references": "Referenzen",
+    "partner": "Partner",
+    "contact": "Kontakt",
+    "getQuote": "Angebot anfordern"
+  },
+  "hero": {
+    "badge": "Abwasser- & Kläranlagenlösungen",
+    "titleLine1": "Sauberes Wasser,",
+    "titleHighlight": "Nachhaltige",
+    "titleLine2": "Zukunft",
+    "desc": "Danmotech bietet fortschrittliche dezentrale Abwasserbehandlungssysteme für Wohn-, Gewerbe- und kommunale Anwendungen weltweit.",
+    "exploreProducts": "Produkte entdecken",
+    "contactUs": "Kontaktieren Sie uns",
+    "stats": {
+      "projects": "Abgeschlossene Projekte",
+      "countries": "Belieferte Länder",
+      "years": "Jahre Erfahrung",
+      "efficiency": "Reinigungseffizienz"
+    }
+  },
+  "products": {
+    "subtitle": "Unsere Lösungen",
+    "title": "Produktserien",
+    "desc": "Von kompakten Haushaltsgeräten bis hin zu großen kommunalen Anlagen — wir haben die richtige Lösung für jede Abwasserherausforderung.",
+    "learnMore": "Mehr erfahren",
+    "residential": "Wohnbereich",
+    "commercial": "Gewerbe",
+    "modular": "Modular",
+    "municipal": "Kommunal",
+    "icell": {
+      "name": "iCELL Serie",
+      "desc": "Kompakte Kläranlagen für Einzelhaushalte, ländliche Gebiete, Villen und kleine Wohngemeinschaften. Einfach zu installieren und zu warten."
+    },
+    "icube": {
+      "name": "iCUBE Serie",
+      "desc": "Containerisierte Kläranlagen für verteilte Bevölkerungen, Camps, abgelegene Gebiete und gewerbliche Einrichtungen."
+    },
+    "ishell": {
+      "name": "iSHELL Serie",
+      "desc": "Fortschrittliche modulare Abwasserbehandlung mit deutscher Festbett-Technologie. Flexible Kombinationen für verschiedene Kapazitäten."
+    },
+    "wwtp": {
+      "name": "Kläranlage",
+      "desc": "Großkläranlagen mit erstklassigen Technologien für kommunale und industrielle Anwendungen."
+    }
+  },
+  "tech": {
+    "subtitle": "Warum Danmotech",
+    "title": "Fortschrittliche Technologie",
+    "desc": "Deutsche Ingenieurskunst kombiniert mit jahrzehntelanger Abwasserbehandlungserfahrung.",
+    "features": {
+      "germanTech": { "title": "Deutsche Technologie", "desc": "Fortschrittliche Festbett-Biofilm-Technologie aus Deutschland." },
+      "ecoFriendly": { "title": "Umweltfreundlich", "desc": "Niedriger Energieverbrauch mit minimaler Umweltbelastung." },
+      "highEfficiency": { "title": "Hohe Effizienz", "desc": "99% Reinigungseffizienz, die strenge Einleitungsstandards erfüllt." },
+      "easyMaintenance": { "title": "Einfache Wartung", "desc": "Automatisierte Systeme mit minimalem Personalaufwand." },
+      "certifiedQuality": { "title": "Zertifizierte Qualität", "desc": "International getestet und von führenden Behörden zugelassen." },
+      "waterReuse": { "title": "Wasserwiederverwendung", "desc": "Gereinigtes Wasser geeignet für Bewässerung und Brauchwasser." }
+    }
+  },
+  "refs": {
+    "subtitle": "Fallstudien",
+    "title": "Unsere Referenzen",
+    "desc": "Nachgewiesene Erfolge in Wohn-, Gewerbe- und Kommunalprojekten weltweit.",
+    "items": {
+      "icell": { "title": "iCELL Privathaushalt", "location": "Ländliche Haushalte & Villen" },
+      "icube": { "title": "iCUBE Gemeinschaftsprojekt", "location": "Wohngemeinschaft" },
+      "ishell": { "title": "iSHELL Kommunalsystem", "location": "Unterirdische Installation" },
+      "wwtp": { "title": "Großkläranlage", "location": "Kommunale Kläranlage" }
+    }
+  },
+  "partner": {
+    "subtitle": "Partnerschaft",
+    "title": "Werden Sie Danmotech Partner",
+    "desc": "Wir suchen erfahrene Distributoren und Händler weltweit, um unsere fortschrittlichen Abwasserbehandlungslösungen in neue Märkte zu bringen.",
+    "applyNow": "Jetzt bewerben",
+    "benefits": {
+      "globalNetwork": { "title": "Globales Netzwerk", "desc": "Treten Sie unserem internationalen Händlernetzwerk in über 30 Ländern bei." },
+      "growingMarket": { "title": "Wachsender Markt", "desc": "Nutzen Sie die schnell wachsende Wasseraufbereitungsindustrie." },
+      "fullSupport": { "title": "Volle Unterstützung", "desc": "Technische Schulungen, Marketingmaterialien und fortlaufende Betreuung." }
+    }
+  },
+  "contact": {
+    "subtitle": "Kontakt",
+    "title": "Kontaktieren Sie uns",
+    "desc": "Bereit, Ihre Abwasserbehandlungsanforderungen zu besprechen? Unser Expertenteam hilft Ihnen, die perfekte Lösung zu finden.",
+    "email": "E-Mail",
+    "location": "Standort",
+    "locationValue": "Shanghai, China",
+    "website": "Webseite",
+    "form": {
+      "name": "Name",
+      "email": "E-Mail",
+      "company": "Unternehmen",
+      "selectProduct": "Produktinteresse auswählen",
+      "partnership": "Partnerschaft",
+      "message": "Ihre Nachricht...",
+      "send": "Nachricht senden"
+    },
+    "success": {
+      "title": "Nachricht gesendet!",
+      "desc": "Wir melden uns in Kürze bei Ihnen."
+    }
+  },
+  "footer": {
+    "desc": "Professioneller Anbieter von Abwasserbehandlungslösungen mit deutscher Technologie.",
+    "products": "Produkte",
+    "company": "Unternehmen",
+    "contact": "Kontakt",
+    "technology": "Technologie",
+    "references": "Referenzen",
+    "becomePartner": "Partner werden",
+    "rights": "Alle Rechte vorbehalten."
+  },
+  "detail": {
+    "backToProducts": "Zurück zu Produkten",
+    "overview": "Übersicht",
+    "specifications": "Technische Daten",
+    "bioTankParams": "Bio-Tank Parameter",
+    "techFeatures": "Technische Merkmale",
+    "advantages": "Vorteile",
+    "applicationAreas": "Anwendungsbereiche",
+    "interestedIn": "Interessiert an",
+    "ctaDesc": "Kontaktieren Sie unser Team für eine maßgeschneiderte Lösung für Ihre Projektanforderungen.",
+    "otherProducts": "Weitere Produkte",
+    "notFound": "Produkt nicht gefunden",
+    "backHome": "← Zurück zur Startseite",
+    "tableHeaders": {
+      "model": "Modell",
+      "capacity": "Kapazität",
+      "size": "Größe",
+      "inlet": "Zulauf",
+      "outlet": "Ablauf",
+      "power": "Leistung",
+      "mode": "Typ",
+      "volTotal": "Gesamtvol.",
+      "biofillerVol": "Biofüller Vol.",
+      "width": "Breite",
+      "height": "Höhe",
+      "inletDia": "Zulauf Ø",
+      "inletHeight": "Zulaufhöhe",
+      "weight": "Gewicht"
+    },
+    "inletCriteria": "Zulaufwasser-Kriterien",
+    "outletCriteria": "Ablaufwasser-Standard"
+  }
+}

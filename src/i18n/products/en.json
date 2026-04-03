@@ -1,0 +1,176 @@
+{
+  "icell": {
+    "slug": "icell",
+    "name": "iCELL Series",
+    "tagline": "Compact STP for Single Households & Rural Areas",
+    "tag": "Residential",
+    "description": [
+      "Danmotech iCELL packaged wastewater treatment plants are designed for treating sewage water from single households in rural areas, independent residential buildings, villas, and small residential communities.",
+      "The iCELL system is typically installed after a septic tank, either in-ground or above ground. The population coverage of a single iCELL unit covers 3–6 people, with capacity scaling through modular combinations."
+    ],
+    "specs": [
+      { "model": "iCELL-0.5", "capacity": "0.5 t/d", "size": "1.2 × 0.73 × 1.2 m", "inlet": "DN100", "outlet": "DN100", "power": "25W" },
+      { "model": "iCELL-1",   "capacity": "1 t/d",   "size": "D1.4 × 1.6 m",       "inlet": "DN100", "outlet": "DN100", "power": "25W" }
+    ],
+    "features": [
+      "Modified A/O process combining activated sludge and biofilm technologies",
+      "Patented fixed plate biofilm carrier for enhanced COD and TN removal",
+      "Effluent meets Class B discharge standard (GB18918-2016)",
+      "Optional solar panel power supply for zero operating cost",
+      "Optional intelligent monitoring with remote operation control",
+      "Single module capacity: 0.5–1 t/d for 3–6 persons"
+    ],
+    "advantages": [
+      "Highly integrated system, easy to install and test",
+      "Short start-up time with less residual sludge",
+      "Good effluent quality suitable for flushing, greening, and irrigation",
+      "PE material — no pollution, long service life",
+      "No noise and no secondary pollution",
+      "Integrated solar power supply option"
+    ],
+    "highlights": [
+      { "label": "Capacity",     "value": "0.5–1 t/day" },
+      { "label": "Power",        "value": "25W" },
+      { "label": "Coverage",     "value": "3–6 persons" },
+      { "label": "Installation", "value": "In/Above ground" }
+    ]
+  },
+  "icube": {
+    "slug": "icube",
+    "name": "iCUBE Series",
+    "tagline": "Containerized STP for Communities & Commercial Facilities",
+    "tag": "Commercial",
+    "description": [
+      "Danmotech iCUBE systems are containerized wastewater treatment plants commonly used for distributed populations, camps, oil rig sites, and remote locations.",
+      "Designed for small-to-medium residential areas, schools, hospitals, hotels, and commercial facilities. The modular container design (20HQ and 40HQ) enables flexible capacity scaling from 50 to over 130,000 people."
+    ],
+    "specs": [
+      { "model": "iCUBE-50",  "capacity": "≤50 t/d",  "size": "6060 × 2440 × 2900 mm",  "inlet": "—", "outlet": "—", "power": "—" },
+      { "model": "iCUBE-150", "capacity": "≤150 t/d", "size": "12190 × 2440 × 2900 mm", "inlet": "—", "outlet": "—", "power": "—" }
+    ],
+    "inletCriteria": [
+      { "param": "BOD₅",  "value": "≤220 mg/l" },
+      { "param": "COD",   "value": "≤400 mg/l" },
+      { "param": "pH",    "value": "6–9" },
+      { "param": "SS",    "value": "≤200 mg/l" },
+      { "param": "NH₃-N","value": "≤40 mg/l" },
+      { "param": "TN",    "value": "≤45 mg/l" }
+    ],
+    "outletCriteria": [
+      { "param": "BOD₅",  "value": "≤10 mg/l" },
+      { "param": "COD",   "value": "≤50 mg/l" },
+      { "param": "SS",    "value": "≤10 mg/l" },
+      { "param": "TN",    "value": "≤10 mg/l" },
+      { "param": "NH₃-N","value": "≤5(8) mg/l" },
+      { "param": "pH",    "value": "6–9" }
+    ],
+    "features": [
+      "Modified A/O process combining activated sludge and bio-film technologies",
+      "Patented HBF biological wastewater treatment for energy savings",
+      "Fixed plate biofilm carrier enhances nitrogen removal",
+      "Remote monitoring via environmental intelligent cloud platform",
+      "Single module capacity: 50–200 t/d",
+      "Population coverage: 300–2,000 persons per module",
+      "Occupation area: 0.20–0.45 m²/t",
+      "Energy consumption: 0.20–0.50 KW·h/t"
+    ],
+    "advantages": [
+      "Meets strict municipal wastewater discharge standards",
+      "Plug & play solution with easy installation",
+      "Treated water reusable for irrigation and flushing",
+      "Short construction period with standardized production",
+      "Intelligent monitoring — online and Mobile App",
+      "No secondary pollution (sludge, exhaust gas, noise)",
+      "Stable performance with strong impulse load resistance"
+    ],
+    "highlights": [
+      { "label": "Capacity",   "value": "50–200 t/day" },
+      { "label": "Energy",     "value": "0.20–0.50 KW·h/t" },
+      { "label": "Coverage",   "value": "300–2,000 persons" },
+      { "label": "Footprint",  "value": "0.20–0.45 m²/t" }
+    ]
+  },
+  "ishell": {
+    "slug": "ishell",
+    "name": "iSHELL Series",
+    "tagline": "Advanced Packaged STP with German Fixed-Bed Biofilm Technology",
+    "tag": "Modular",
+    "description": [
+      "Danmotech iSHELL packaged sewage treatment plant adopts German advanced fixed-bed biofilm carrier technology, introduced in 2013 and mass produced since 2014. The same type is widely used across developed European countries.",
+      "The iSHELL solution combines three parts — septic tank, bio-tank, and sedimentation tank. With different volumes and combinations, treatment capacity scales flexibly, like LEGO bricks. The modular PE composite design enables underground installation, preserving surface land."
+    ],
+    "specs": [
+      { "model": "Type A", "capacity": "Modular", "size": "1600 mm width × 2300 mm height", "inlet": "DN150", "outlet": "Custom", "power": "Intermittent aeration" },
+      { "model": "Type B", "capacity": "Modular", "size": "2200 mm width × 2300 mm height", "inlet": "DN150", "outlet": "Custom", "power": "Intermittent aeration" }
+    ],
+    "bioTankSpecs": [
+      { "mode": "A", "volTotal": "3.5 m³", "biofillerVol": "2.7 m³", "width": "1600 mm", "height": "2300 mm", "inletDia": "DN150", "inletHeight": "1700 mm", "weight": "200–330 kg" },
+      { "mode": "B", "volTotal": "6.3 m³", "biofillerVol": "4.3 m³", "width": "2200 mm", "height": "2300 mm", "inletDia": "DN150", "inletHeight": "1700 mm", "weight": "300–500 kg" }
+    ],
+    "features": [
+      "German advanced fixed-bed biofilm carrier technology with 20+ year lifespan",
+      "Progressive flow between tanks without external power — intermittent aeration reduces costs",
+      "PE adjusting tank replaces concrete septic tank, shortening installation cycle",
+      "Two-stage biological treatment: high-load reactor (100 m²/m³) and low-load reactor (150 m²/m³)",
+      "Nitrification liquid reflux system available per customer requirements",
+      "Seamless PE tank with antioxidants and UV-resistant additives resists all corrosion types",
+      "Corrugated shape designed by German experts — strong structure with good appearance",
+      "High anti-floating performance, no additional anti-floating measures needed"
+    ],
+    "advantages": [
+      "Divided structure for convenient transportation and hoisting",
+      "Automatic control system with intelligent monitoring",
+      "German imported pipe microhole aerator for even aeration",
+      "Special polyurethane film material for biofilm carriers",
+      "Small volume, light weight — easy to install and transport",
+      "Service life exceeds 20 years",
+      "Patented buried PE tank and high-efficiency combined STP design"
+    ],
+    "highlights": [
+      { "label": "Bio Tank Vol.", "value": "3.5–6.3 m³" },
+      { "label": "Technology",   "value": "German Fixed-Bed" },
+      { "label": "Lifespan",     "value": "20+ Years" },
+      { "label": "Design",       "value": "Modular PE" }
+    ],
+    "applicationAreas": [
+      "Domestic sewage: rural areas, towns, and small markets",
+      "Municipal & commercial: hotels, communities, entertainment venues, highway service areas",
+      "Public transport: bus stations, railway stations, passenger terminals, rail transit hubs"
+    ]
+  },
+  "wwtp": {
+    "slug": "wwtp",
+    "name": "Waste Water Treatment Plant",
+    "tagline": "Full-Scale Municipal & Industrial Treatment Solutions",
+    "tag": "Municipal",
+    "description": [
+      "Danmotech integrates world-class wastewater treatment technologies to provide effective and advanced solutions for municipal and industrial applications.",
+      "For large-scale projects requiring detailed evaluation of local regulations, environment, and waste water composition, we provide professional consultation including site blueprints and construction guidance supported by our patented HBF and UC reactor technologies."
+    ],
+    "specs": [
+      { "model": "Custom WWTP", "capacity": "500–50,000+ t/d", "size": "Site-specific design", "inlet": "Custom", "outlet": "Custom", "power": "Project-based" }
+    ],
+    "features": [
+      "Patented HBF (High-efficiency Biofilm) technology",
+      "UC reactor for advanced treatment stages",
+      "Comprehensive project evaluation and consultation",
+      "Site-specific blueprint and construction planning",
+      "Integration of global best-in-class treatment technologies",
+      "On-site expert guidance during construction"
+    ],
+    "advantages": [
+      "10+ years of wastewater treatment expertise",
+      "Professional consultation from evaluation to commissioning",
+      "Access to the newest global treatment technologies",
+      "High cost-effectiveness for energy and economy savings",
+      "On-site construction guidance by expert teams",
+      "Comprehensive after-sales support and maintenance"
+    ],
+    "highlights": [
+      { "label": "Scale",       "value": "500–50,000+ t/day" },
+      { "label": "Technology",  "value": "HBF & UC Reactor" },
+      { "label": "Experience",  "value": "10+ Years" },
+      { "label": "Service",     "value": "Full Lifecycle" }
+    ]
+  }
+}

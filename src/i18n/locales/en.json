@@ -1,0 +1,151 @@
+{
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "technology": "Technology",
+    "references": "References",
+    "partner": "Partner",
+    "contact": "Contact",
+    "getQuote": "Get a Quote"
+  },
+  "hero": {
+    "badge": "Sewage & Waste Water Treatment Solutions",
+    "titleLine1": "Clean Water,",
+    "titleHighlight": "Sustainable",
+    "titleLine2": "Future",
+    "desc": "Danmotech provides advanced decentralized sewage and wastewater treatment systems for residential, commercial, and municipal applications worldwide.",
+    "exploreProducts": "Explore Products",
+    "contactUs": "Contact Us",
+    "stats": {
+      "projects": "Projects Completed",
+      "countries": "Countries Served",
+      "years": "Years Experience",
+      "efficiency": "Treatment Efficiency"
+    }
+  },
+  "products": {
+    "subtitle": "Our Solutions",
+    "title": "Product Series",
+    "desc": "From compact household units to large-scale municipal plants, we have the right solution for every wastewater challenge.",
+    "learnMore": "Learn More",
+    "residential": "Residential",
+    "commercial": "Commercial",
+    "modular": "Modular",
+    "municipal": "Municipal",
+    "icell": {
+      "name": "iCELL Series",
+      "desc": "Compact STP plants designed for single households, rural areas, villas, and small residential communities. Easy to install and maintain."
+    },
+    "icube": {
+      "name": "iCUBE Series",
+      "desc": "Containerized sewage treatment plants for distributed populations, camps, remote areas, and commercial facilities."
+    },
+    "ishell": {
+      "name": "iSHELL Series",
+      "desc": "Advanced modular sewage treatment adopting German fixed-bed technology. Flexible combinations for various capacities."
+    },
+    "wwtp": {
+      "name": "Waste Water Treatment Plant",
+      "desc": "Full-scale wastewater treatment plants integrating world-class technologies for municipal and industrial applications."
+    }
+  },
+  "tech": {
+    "subtitle": "Why Danmotech",
+    "title": "Advanced Technology",
+    "desc": "Combining German engineering excellence with decades of wastewater treatment expertise.",
+    "features": {
+      "germanTech": { "title": "German Technology", "desc": "Advanced fixed-bed biological treatment technology from Germany." },
+      "ecoFriendly": { "title": "Eco-Friendly", "desc": "Low energy consumption with minimal environmental impact." },
+      "highEfficiency": { "title": "High Efficiency", "desc": "99% treatment efficiency meeting stringent discharge standards." },
+      "easyMaintenance": { "title": "Easy Maintenance", "desc": "Automated systems requiring minimal operator intervention." },
+      "certifiedQuality": { "title": "Certified Quality", "desc": "Internationally tested and approved by leading authorities." },
+      "waterReuse": { "title": "Water Reuse", "desc": "Treated water suitable for irrigation and non-potable reuse." }
+    }
+  },
+  "refs": {
+    "subtitle": "Case Studies",
+    "title": "Our References",
+    "desc": "Proven track record across residential, commercial, and municipal projects worldwide.",
+    "items": {
+      "icell": { "title": "iCELL Private Residential", "location": "Rural households & villas" },
+      "icube": { "title": "iCUBE Community Project", "location": "Residential community" },
+      "ishell": { "title": "iSHELL Municipal System", "location": "Underground installation" },
+      "wwtp": { "title": "Large-Scale WWTP", "location": "Municipal wastewater plant" }
+    }
+  },
+  "partner": {
+    "subtitle": "Partnership",
+    "title": "Become a Danmotech Partner",
+    "desc": "We're looking for experienced distributors and dealers worldwide to bring our advanced wastewater treatment solutions to new markets.",
+    "applyNow": "Apply Now",
+    "benefits": {
+      "globalNetwork": { "title": "Global Network", "desc": "Join our international dealer network across 30+ countries." },
+      "growingMarket": { "title": "Growing Market", "desc": "Tap into the rapidly expanding water treatment industry." },
+      "fullSupport": { "title": "Full Support", "desc": "Technical training, marketing materials, and ongoing support." }
+    }
+  },
+  "contact": {
+    "subtitle": "Contact",
+    "title": "Get in Touch",
+    "desc": "Ready to discuss your wastewater treatment needs? Our team of experts is here to help you find the perfect solution.",
+    "email": "Email",
+    "location": "Location",
+    "locationValue": "Shanghai, China",
+    "website": "Website",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "company": "Company",
+      "selectProduct": "Select Product Interest",
+      "partnership": "Partnership",
+      "message": "Your message...",
+      "send": "Send Message"
+    },
+    "success": {
+      "title": "Message Sent!",
+      "desc": "We'll get back to you shortly."
+    }
+  },
+  "footer": {
+    "desc": "Professional sewage & waste water treatment solution provider with German technology.",
+    "products": "Products",
+    "company": "Company",
+    "contact": "Contact",
+    "technology": "Technology",
+    "references": "References",
+    "becomePartner": "Become a Partner",
+    "rights": "All rights reserved."
+  },
+  "detail": {
+    "backToProducts": "Back to Products",
+    "overview": "Overview",
+    "specifications": "Specifications",
+    "bioTankParams": "Bio Tank Parameters",
+    "techFeatures": "Technology Features",
+    "advantages": "Advantages",
+    "applicationAreas": "Application Areas",
+    "interestedIn": "Interested in",
+    "ctaDesc": "Contact our team for a customized solution tailored to your project requirements.",
+    "otherProducts": "Other Products",
+    "notFound": "Product Not Found",
+    "backHome": "← Back to Home",
+    "tableHeaders": {
+      "model": "Model",
+      "capacity": "Capacity",
+      "size": "Size",
+      "inlet": "Inlet",
+      "outlet": "Outlet",
+      "power": "Power",
+      "mode": "Mode",
+      "volTotal": "Vol. Total",
+      "biofillerVol": "Biofiller Vol.",
+      "width": "Width",
+      "height": "Height",
+      "inletDia": "Inlet Dia.",
+      "inletHeight": "Inlet Height",
+      "weight": "Weight"
+    },
+    "inletCriteria": "Inlet Water Criteria",
+    "outletCriteria": "Outlet Water Standard"
+  }
+}

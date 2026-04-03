@@ -1,0 +1,176 @@
+{
+  "icell": {
+    "slug": "icell",
+    "name": "Serie iCELL",
+    "tagline": "Planta compacta para hogares individuales y áreas rurales",
+    "tag": "Residencial",
+    "description": [
+      "Las plantas de tratamiento iCELL de Danmotech están diseñadas para tratar aguas residuales de hogares individuales en áreas rurales, edificios residenciales independientes, villas y pequeñas comunidades residenciales.",
+      "El sistema iCELL se instala normalmente después de un tanque séptico, ya sea enterrado o sobre el suelo. Una sola unidad iCELL cubre 3–6 personas, con capacidad escalable mediante combinaciones modulares."
+    ],
+    "specs": [
+      { "model": "iCELL-0.5", "capacity": "0,5 t/día", "size": "1,2 × 0,73 × 1,2 m", "inlet": "DN100", "outlet": "DN100", "power": "25W" },
+      { "model": "iCELL-1",   "capacity": "1 t/día",   "size": "D1,4 × 1,6 m",       "inlet": "DN100", "outlet": "DN100", "power": "25W" }
+    ],
+    "features": [
+      "Proceso A/O modificado que combina lodos activados y tecnologías de biopelícula",
+      "Portador de biopelícula de placa fija patentado para mayor eliminación de DQO y NT",
+      "El efluente cumple el estándar de descarga Clase B (GB18918-2016)",
+      "Suministro de energía solar opcional para costo operativo cero",
+      "Monitoreo inteligente opcional con control de operación remota",
+      "Capacidad de módulo único: 0,5–1 t/día para 3–6 personas"
+    ],
+    "advantages": [
+      "Sistema altamente integrado, fácil de instalar y probar",
+      "Tiempo de arranque corto con menos lodo residual",
+      "Buena calidad del efluente apta para descarga, jardinería e irrigación",
+      "Material PE — sin contaminación, larga vida útil",
+      "Sin ruido ni contaminación secundaria",
+      "Opción de suministro de energía solar integrada"
+    ],
+    "highlights": [
+      { "label": "Capacidad",     "value": "0,5–1 t/día" },
+      { "label": "Potencia",      "value": "25W" },
+      { "label": "Cobertura",     "value": "3–6 personas" },
+      { "label": "Instalación",   "value": "Enterrado/Superficie" }
+    ]
+  },
+  "icube": {
+    "slug": "icube",
+    "name": "Serie iCUBE",
+    "tagline": "Planta containerizada para comunidades e instalaciones comerciales",
+    "tag": "Comercial",
+    "description": [
+      "Los sistemas iCUBE de Danmotech son plantas de tratamiento containerizadas para poblaciones dispersas, campamentos, plataformas petrolíferas y ubicaciones remotas.",
+      "Diseñados para áreas residenciales pequeñas y medianas, escuelas, hospitales, hoteles e instalaciones comerciales. El diseño modular (20HQ y 40HQ) permite escalar de 50 a más de 130.000 personas."
+    ],
+    "specs": [
+      { "model": "iCUBE-50",  "capacity": "≤50 t/día",  "size": "6060 × 2440 × 2900 mm",  "inlet": "—", "outlet": "—", "power": "—" },
+      { "model": "iCUBE-150", "capacity": "≤150 t/día", "size": "12190 × 2440 × 2900 mm", "inlet": "—", "outlet": "—", "power": "—" }
+    ],
+    "inletCriteria": [
+      { "param": "DBO₅",  "value": "≤220 mg/l" },
+      { "param": "DQO",   "value": "≤400 mg/l" },
+      { "param": "pH",    "value": "6–9" },
+      { "param": "SS",    "value": "≤200 mg/l" },
+      { "param": "NH₃-N","value": "≤40 mg/l" },
+      { "param": "NT",    "value": "≤45 mg/l" }
+    ],
+    "outletCriteria": [
+      { "param": "DBO₅",  "value": "≤10 mg/l" },
+      { "param": "DQO",   "value": "≤50 mg/l" },
+      { "param": "SS",    "value": "≤10 mg/l" },
+      { "param": "NT",    "value": "≤10 mg/l" },
+      { "param": "NH₃-N","value": "≤5(8) mg/l" },
+      { "param": "pH",    "value": "6–9" }
+    ],
+    "features": [
+      "Proceso A/O modificado que combina lodos activados y biopelícula",
+      "Tecnología HBF patentada para ahorro de energía",
+      "Portador de biopelícula de placa fija mejora la eliminación de nitrógeno",
+      "Monitoreo remoto mediante plataforma inteligente en la nube",
+      "Capacidad de módulo único: 50–200 t/día",
+      "Cobertura de población: 300–2.000 personas por módulo",
+      "Área de ocupación: 0,20–0,45 m²/t",
+      "Consumo de energía: 0,20–0,50 KW·h/t"
+    ],
+    "advantages": [
+      "Cumple estrictos estándares de descarga de aguas residuales municipales",
+      "Solución plug & play con fácil instalación",
+      "Agua tratada reutilizable para riego y descarga",
+      "Período de construcción corto con producción estandarizada",
+      "Monitoreo inteligente — en línea y App móvil",
+      "Sin contaminación secundaria (lodo, gas de escape, ruido)",
+      "Rendimiento estable con fuerte resistencia a cargas de impulso"
+    ],
+    "highlights": [
+      { "label": "Capacidad",  "value": "50–200 t/día" },
+      { "label": "Energía",    "value": "0,20–0,50 KW·h/t" },
+      { "label": "Cobertura",  "value": "300–2.000 personas" },
+      { "label": "Superficie", "value": "0,20–0,45 m²/t" }
+    ]
+  },
+  "ishell": {
+    "slug": "ishell",
+    "name": "Serie iSHELL",
+    "tagline": "Planta avanzada con tecnología alemana de lecho fijo y biopelícula",
+    "tag": "Modular",
+    "description": [
+      "La planta iSHELL de Danmotech adopta la tecnología alemana avanzada de portador de biopelícula de lecho fijo, introducida en 2013 y producida en masa desde 2014.",
+      "La solución iSHELL combina tres partes: tanque séptico, bio-tanque y tanque de sedimentación. Con diferentes volúmenes y combinaciones, la capacidad de tratamiento escala de forma flexible como piezas de LEGO."
+    ],
+    "specs": [
+      { "model": "Tipo A", "capacity": "Modular", "size": "Ancho 1600 mm × Alto 2300 mm", "inlet": "DN150", "outlet": "Personalizado", "power": "Aireación intermitente" },
+      { "model": "Tipo B", "capacity": "Modular", "size": "Ancho 2200 mm × Alto 2300 mm", "inlet": "DN150", "outlet": "Personalizado", "power": "Aireación intermitente" }
+    ],
+    "bioTankSpecs": [
+      { "mode": "A", "volTotal": "3,5 m³", "biofillerVol": "2,7 m³", "width": "1600 mm", "height": "2300 mm", "inletDia": "DN150", "inletHeight": "1700 mm", "weight": "200–330 kg" },
+      { "mode": "B", "volTotal": "6,3 m³", "biofillerVol": "4,3 m³", "width": "2200 mm", "height": "2300 mm", "inletDia": "DN150", "inletHeight": "1700 mm", "weight": "300–500 kg" }
+    ],
+    "features": [
+      "Tecnología alemana de portador de biopelícula de lecho fijo con vida útil de 20+ años",
+      "Flujo progresivo entre tanques sin energía externa — la aireación intermitente reduce costos",
+      "Tanque PE reemplaza el tanque séptico de concreto, acortando el ciclo de instalación",
+      "Tratamiento biológico de dos etapas: reactor de alta carga (100 m²/m³) y baja carga (150 m²/m³)",
+      "Sistema de reflujo de líquido de nitrificación disponible según requisitos del cliente",
+      "Tanque PE sin costuras con antioxidantes y aditivos resistentes a UV",
+      "Forma corrugada diseñada por expertos alemanes — estructura resistente con buen aspecto",
+      "Alto rendimiento anti-flotación, sin medidas adicionales necesarias"
+    ],
+    "advantages": [
+      "Estructura dividida para transporte e izado convenientes",
+      "Sistema de control automático con monitoreo inteligente",
+      "Aireador de microorificios de tubo importado de Alemania para aireación uniforme",
+      "Material especial de película de poliuretano para portadores de biopelícula",
+      "Volumen pequeño, peso ligero — fácil de instalar y transportar",
+      "Vida útil superior a 20 años",
+      "Diseño patentado de tanque PE enterrado y STP combinado de alta eficiencia"
+    ],
+    "highlights": [
+      { "label": "Vol. Bio-Tanque", "value": "3,5–6,3 m³" },
+      { "label": "Tecnología",      "value": "Lecho Fijo Alemán" },
+      { "label": "Vida Útil",       "value": "20+ Años" },
+      { "label": "Diseño",          "value": "PE Modular" }
+    ],
+    "applicationAreas": [
+      "Aguas residuales domésticas: áreas rurales, pueblos y pequeños mercados",
+      "Municipal y comercial: hoteles, comunidades, lugares de entretenimiento, áreas de servicio de autopistas",
+      "Transporte público: estaciones de autobús, estaciones de tren, terminales de pasajeros"
+    ]
+  },
+  "wwtp": {
+    "slug": "wwtp",
+    "name": "Planta de Tratamiento de Agua Residual",
+    "tagline": "Soluciones de tratamiento municipal e industrial a gran escala",
+    "tag": "Municipal",
+    "description": [
+      "Danmotech integra tecnologías de tratamiento de aguas residuales de clase mundial para proporcionar soluciones efectivas y avanzadas para aplicaciones municipales e industriales.",
+      "Para proyectos a gran escala que requieren evaluación detallada de regulaciones locales, entorno y composición de aguas residuales, ofrecemos consultoría profesional incluyendo planos del sitio y orientación de construcción."
+    ],
+    "specs": [
+      { "model": "WWTP Personalizada", "capacity": "500–50.000+ t/día", "size": "Diseño específico del sitio", "inlet": "Personalizado", "outlet": "Personalizado", "power": "Basado en proyecto" }
+    ],
+    "features": [
+      "Tecnología HBF patentada (Biopelícula de Alta Eficiencia)",
+      "Reactor UC para etapas de tratamiento avanzado",
+      "Evaluación y consultoría integral del proyecto",
+      "Planificación de planos y construcción específica del sitio",
+      "Integración de las mejores tecnologías de tratamiento globales",
+      "Orientación experta en el sitio durante la construcción"
+    ],
+    "advantages": [
+      "Más de 10 años de experiencia en tratamiento de aguas residuales",
+      "Consultoría profesional desde la evaluación hasta la puesta en marcha",
+      "Acceso a las últimas tecnologías de tratamiento globales",
+      "Alta rentabilidad para ahorros de energía y economía",
+      "Orientación de construcción en el sitio por equipos expertos",
+      "Soporte posventa y mantenimiento integral"
+    ],
+    "highlights": [
+      { "label": "Escala",      "value": "500–50.000+ t/día" },
+      { "label": "Tecnología",  "value": "HBF & Reactor UC" },
+      { "label": "Experiencia", "value": "10+ Años" },
+      { "label": "Servicio",    "value": "Ciclo de Vida Completo" }
+    ]
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "nav": {
+    "home": "首页",
+    "products": "产品系列",
+    "technology": "核心技术",
+    "references": "工程案例",
+    "partner": "合作伙伴",
+    "contact": "联系我们",
+    "getQuote": "获取报价"
+  },
+  "hero": {
+    "badge": "污水及废水处理解决方案",
+    "titleLine1": "清洁水源，",
+    "titleHighlight": "可持续",
+    "titleLine2": "未来",
+    "desc": "丹模科技提供先进的分散式污水和废水处理系统，应用于住宅、商业和市政等领域，业务遍及全球。",
+    "exploreProducts": "了解产品",
+    "contactUs": "联系我们",
+    "stats": {
+      "projects": "完成项目",
+      "countries": "服务国家",
+      "years": "行业经验",
+      "efficiency": "处理效率"
+    }
+  },
+  "products": {
+    "subtitle": "我们的方案",
+    "title": "产品系列",
+    "desc": "从小型家用设备到大型市政水厂，我们为每一个污水处理难题提供合适的解决方案。",
+    "learnMore": "了解更多",
+    "residential": "住宅型",
+    "commercial": "商业型",
+    "modular": "模块化",
+    "municipal": "市政型",
+    "icell": {
+      "name": "iCELL 系列",
+      "desc": "紧凑型小型污水处理装置，专为单户住宅、农村地区、别墅及小型社区设计，安装维护简便。"
+    },
+    "icube": {
+      "name": "iCUBE 系列",
+      "desc": "集装箱式污水处理设备，适用于分散人口、营地、偏远地区及商业设施。"
+    },
+    "ishell": {
+      "name": "iSHELL 系列",
+      "desc": "采用德国先进固定床技术的模块化污水处理系统，灵活组合适用于各种处理量。"
+    },
+    "wwtp": {
+      "name": "废水处理厂",
+      "desc": "集成世界一流技术的大型废水处理厂，适用于市政和工业应用。"
+    }
+  },
+  "tech": {
+    "subtitle": "为什么选择丹模",
+    "title": "先进技术",
+    "desc": "融合德国工程卓越技术与数十年废水处理经验。",
+    "features": {
+      "germanTech": { "title": "德国技术", "desc": "来自德国的先进固定床生物处理技术。" },
+      "ecoFriendly": { "title": "环保节能", "desc": "低能耗运行，对环境影响最小。" },
+      "highEfficiency": { "title": "高效处理", "desc": "99%处理效率，满足严格排放标准。" },
+      "easyMaintenance": { "title": "维护简便", "desc": "自动化系统，所需操作人员极少。" },
+      "certifiedQuality": { "title": "认证品质", "desc": "通过国际权威机构测试和认证。" },
+      "waterReuse": { "title": "中水回用", "desc": "处理后水质可用于灌溉和非饮用水回用。" }
+    }
+  },
+  "refs": {
+    "subtitle": "工程案例",
+    "title": "项目参考",
+    "desc": "在住宅、商业和市政项目中拥有全球范围的成功案例。",
+    "items": {
+      "icell": { "title": "iCELL 私人住宅项目", "location": "农村住宅及别墅" },
+      "icube": { "title": "iCUBE 社区项目", "location": "住宅社区" },
+      "ishell": { "title": "iSHELL 市政系统", "location": "地埋式安装" },
+      "wwtp": { "title": "大型废水处理厂", "location": "市政污水处理厂" }
+    }
+  },
+  "partner": {
+    "subtitle": "合作伙伴",
+    "title": "成为丹模合作伙伴",
+    "desc": "我们正在寻找全球各地有经验的经销商和代理商，将我们先进的废水处理解决方案推向新市场。",
+    "applyNow": "立即申请",
+    "benefits": {
+      "globalNetwork": { "title": "全球网络", "desc": "加入我们遍布30多个国家的国际经销商网络。" },
+      "growingMarket": { "title": "市场增长", "desc": "进入快速增长的水处理行业。" },
+      "fullSupport": { "title": "全面支持", "desc": "技术培训、市场资料和持续支持。" }
+    }
+  },
+  "contact": {
+    "subtitle": "联系方式",
+    "title": "联系我们",
+    "desc": "准备好讨论您的污水处理需求了吗？我们的专家团队随时为您提供完美的解决方案。",
+    "email": "邮箱",
+    "location": "位置",
+    "locationValue": "上海，中国",
+    "website": "网站",
+    "form": {
+      "name": "姓名",
+      "email": "邮箱",
+      "company": "公司名称",
+      "selectProduct": "选择感兴趣的产品",
+      "partnership": "合作伙伴",
+      "message": "您的留言...",
+      "send": "发送消息"
+    },
+    "success": {
+      "title": "消息已发送！",
+      "desc": "我们会尽快回复您。"
+    }
+  },
+  "footer": {
+    "desc": "专业的污水及废水处理解决方案提供商，采用德国先进技术。",
+    "products": "产品系列",
+    "company": "公司信息",
+    "contact": "联系方式",
+    "technology": "核心技术",
+    "references": "工程案例",
+    "becomePartner": "成为合作伙伴",
+    "rights": "版权所有。"
+  },
+  "detail": {
+    "backToProducts": "返回产品列表",
+    "overview": "概述",
+    "specifications": "技术参数",
+    "bioTankParams": "生物反应器参数",
+    "techFeatures": "技术特点",
+    "advantages": "产品优势",
+    "applicationAreas": "应用领域",
+    "interestedIn": "对此感兴趣",
+    "ctaDesc": "联系我们的团队，获取根据您项目需求定制的解决方案。",
+    "otherProducts": "其他产品",
+    "notFound": "未找到产品",
+    "backHome": "← 返回首页",
+    "tableHeaders": {
+      "model": "型号",
+      "capacity": "处理量",
+      "size": "尺寸",
+      "inlet": "进水管",
+      "outlet": "出水管",
+      "power": "功率",
+      "mode": "类型",
+      "volTotal": "总容积",
+      "biofillerVol": "填料容积",
+      "width": "宽度",
+      "height": "高度",
+      "inletDia": "进水管径",
+      "inletHeight": "进水高度",
+      "weight": "重量"
+    },
+    "inletCriteria": "进水水质标准",
+    "outletCriteria": "出水水质标准"
+  }
+}
